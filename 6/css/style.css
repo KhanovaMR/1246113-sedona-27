@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+background-color: #ffffff;;
+  background-image: url("img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+  a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+
+
+  background-color: #ffffff;
+}
+.site-navigation {
+  list-style: none;
+  color: #000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus{
+  background-color: #000000;
+}
+.sedona-town {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+.reasons {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;	
+}
+.convenience-list {
+  list-style: none;
+}
+.convenience-item {
+  text-align: center;
+}
+
+.convenience-item h2 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+.convenience-item1 {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-align: center;
+}
+.blue-back,
+.convenience-item2 {
+text-align: center;
+color: #ffffff;
+background-color: #81b3d2;
+}
+.blue-back h2{
+font-weight: bold;
+color: #ffffff;
+}
+.question{
+font-size: 30px;
+line-height: 36px;
+font-weight: bold;
+text-align: center;
+color:#000000
+}
+.question1{
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+color:#333333
+}
+.brown-button{
+width: 568px;
+height: 86px;
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+text-align: center;
+color: #ffffff
+background-color:#766357;
+}
+.blue-button{
+width: 458px;
+height: 58px;
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+text-align: center;
+color: #ffffff
+background-color:#81b3d2;
+}
+.search-options{
+font-size: 14px;
+line-height: 26px;
+text-align: left;
+}
+.search-options input{
+width: 346px;
+height: 38px;
+background-color:#f2f2f2;
+}
+.main-footer {
+  color: #ffffff;
+  background-color: #000000;
+}
+.footer-contacts{
+font-size: 21px;
+line-height: 26px;
+text-align: center;	
+}
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+ color: #ffffff;
+ background-color: #81b3d2;
+}
+
+.footer-copyright {
+  text-align: center;
+}
