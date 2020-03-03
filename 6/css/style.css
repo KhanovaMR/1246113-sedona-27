@@ -5,11 +5,11 @@ body {
   font-family: "PT Sans, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
 
-background-color: #ffffff;;
+background-color: #ffffff;
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -30,9 +30,14 @@ background-color: #ffffff;;
   list-style: none;
   color: #000000;
 }
-.site-navigation a:hover,
+.site-navigation a:hover{
+color: #000000;
+}
 .site-navigation a:focus{
-  background-color: #000000;
+color:#81b3d2;
+}
+.site-navigation a:activ{
+color: rgba(0, 0, 0, 0.3);
 }
 .sedona-town {
   font-size: 21px;
@@ -88,6 +93,16 @@ line-height: 24px;
 text-align: center;
 color:#333333
 }
+.search-options{
+font-size: 14px;
+line-height: 26px;
+text-align: left;
+}
+.search-options input{
+width: 346px;
+height: 38px;
+background-color:#f2f2f2;
+}
 .brown-button{
 width: 568px;
 height: 86px;
@@ -108,19 +123,10 @@ text-align: center;
 color: #ffffff
 background-color:#81b3d2;
 }
-.search-options{
-font-size: 14px;
-line-height: 26px;
-text-align: left;
-}
-.search-options input{
-width: 346px;
-height: 38px;
-background-color:#f2f2f2;
-}
+
 .main-footer {
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
 }
 .footer-contacts{
 font-size: 21px;
@@ -141,5 +147,5 @@ text-align: center;
 }
 
 .footer-copyright {
-  text-align: center;
+  text-align: right;
 }
