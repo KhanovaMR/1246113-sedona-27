@@ -98,11 +98,11 @@ font-size: 14px;
 line-height: 26px;
 text-align: left;
 }
-/*.search-options input{
+.search-options input{
 width: 346px;
 height: 38px;
 background-color:#f2f2f2;
-}*/
+}
 .brown-button {
 width: 568px;
 height: 86px;
