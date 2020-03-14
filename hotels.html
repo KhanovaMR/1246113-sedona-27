@@ -22,10 +22,11 @@
      </nav>
 </header>
 <main>
+  <section class="photo-background"><img src="img/filter-background-foto.jpg" width="1200" height="562" alt="Фото гор вдали"></section>
 		<form method="get" action="https://echo.htmlacademy.ru" oninput="hotel-cost.value=hotel-cost.value">
           <fieldset>
-            <legend>Инфраструктура:</legend>
-            <ul>
+            <legend class="selection-options">Инфраструктура:</legend>
+            <ul class="selection-item">
               <li>
                 <input type="checkbox" name="water-pool" id="filter-water-pool" checked>
                 <label for="filter-water-pool">Бассейн</label>
@@ -41,8 +42,8 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Тип жилья:</legend>
-            <ul>
+            <legend class="selection-options">Тип жилья:</legend>
+            <ul class="selection-item">
               <li>
                 <input type="checkbox" name="hotel" id="filter-hotel" checked>
                 <label for="filter-hotel">Гостиница</label>
@@ -58,13 +59,14 @@
             </ul>
           </fieldset>
           <fieldset>
-          	<legend>Стоимость в сутки(Р):</legend>
+          	<legend class="selection-options">Стоимость в сутки(Р):</legend>
           	<output name="hotel-cost"></output>
-          	<span>от 0 до 3000</span>
+          	<span class="selection-item">от 0 до 3000</span>
           	<input type="range" id="hotel-cost" name="hotel-cost" min="0" max="7000" step="1000">
           </fieldset>
-          <button type="submit">Показать</button>
+          <button type="submit" class="button-show">Показать</button>
 	</form>
+  <span> Найдено 3: Сортировка: По типу По классу По рейтингу</span>
   <h2 class="visually-hidden">Список гостиниц</h2>
         <ul>
           <li>
