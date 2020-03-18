@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.86;
@@ -19,12 +19,16 @@ body {
   color: #000;
   background-color: #f2f2f2;
 }
+.container{
+  width: 1200px;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, .2);
+}
 
 .background-photo {
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-color: #766357;
+  background-color: #766357,url("intro-mask.svg");
 }
   a {
   text-decoration: none;
@@ -41,6 +45,12 @@ body {
 .site-navigation {
   list-style: none;
 }
+.convenience-list {
+  list-style: none;
+}
+.footer-social ul {
+  list-style: none;
+ }
 .site-navigation a {
   color: inherit;
 }
@@ -63,9 +73,7 @@ color: rgba(0, 0, 0, 0.3);
   color: #333333;
   text-align: center;	
 }
-.convenience-list {
-  list-style: none;
-}
+
 .convenience-item {
   text-align: center;
 }
@@ -118,6 +126,7 @@ background-color:#f2f2f2;
 }
 .brown-button {
 width: 568px;
+height: 86px;
 font-size: 21px;
 line-height: 1,24;
 font-weight: bold;
@@ -127,6 +136,7 @@ background-color:#766357;
 }
 .blue-button {
 width: 458px;
+height: 58px;
 font-size: 21px;
 line-height: 1,24;
 font-weight: bold;
@@ -136,6 +146,9 @@ background-color:#81b3d2;
 }
 
 .main-footer {
+  display: : flex;
+  flex-direction: column;
+  justify-content: space-around;
   color: #000000;
   background-color: #ffffff;
 }
@@ -146,10 +159,6 @@ text-align: left;
 }
 .footer-social {
   text-align: center;
-}
-
-.footer-social ul {
-  list-style: none;
 }
 
 .social-button {
@@ -183,6 +192,7 @@ color:#ffffff;
 }
 .button-show{
 width: 65px;
+height: 32px;
 font-size: 14px;
 line-height: 1,5;
 font-weight: normal;
@@ -215,6 +225,7 @@ background-color: #f2f2f2;
 }
 .more-details{
 width: 110px;
+height: 27px;
 font-size: 14px;
 line-height: 1,5;
 font-weight: bold;
@@ -224,6 +235,7 @@ background-color: #81b3d2;
 }
 .reservation{
 width: 142px;
+height: 11px;
 font-size: 14px;
 line-height: 1,5;
 font-weight: bold;
