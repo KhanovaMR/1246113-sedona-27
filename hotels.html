@@ -8,6 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
 <header class="main-header">
   <nav class="main-navigation">
        <a class="main-header-logo" href="index.html">
@@ -22,7 +23,8 @@
      </nav>
 </header>
 <main>
-  <section class="background-photo2"><img src="img/filter-background-foto.jpg" width="1200" height="562" alt="Фото гор вдали"></section>
+  <section class="background-photo2">
+  </section>
 		<form method="get" action="https://echo.htmlacademy.ru" oninput="hotel-cost.value=hotel-cost.value">
           <fieldset>
             <legend class="selection-options">Инфраструктура:</legend>
@@ -61,7 +63,7 @@
           <fieldset>
           	<legend class="selection-options">Стоимость в сутки(Р):</legend>
           	<output name="hotel-cost"></output>
-          	<span class="selection-item">от 0 до 3000</span>
+          	<span class="selection-item">от <input>0 до 3000</span>
           	<input type="range" id="hotel-cost" name="hotel-cost" min="0" max="7000" step="1000">
           </fieldset>
           <button type="submit" class="button-show">Показать</button>
@@ -133,6 +135,7 @@
         <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>
     </div>
-    </footer>  
+    </footer> 
+    </div> 
   </body>
 </html>
