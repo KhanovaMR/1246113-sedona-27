@@ -34,7 +34,21 @@ body {
   text-decoration: none;
   color: #000;
 }
+  .visually-hidden {
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+}
 .main-navigation {
+  position: relative;
   font-size: 14px;
   line-height: 1,85;
   font-weight: bold;
@@ -42,8 +56,23 @@ body {
 
   background-color: #ffffff;
 }
-.site-navigation {
+.site-navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0 72px;
   list-style: none;
+}
+.main-header-logo{
+  position: absolute;
+  z-index: 1;
+  margin-left: 50%;
+
+  transform: translateX(-50%);
+}
+.convenience ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .convenience-list {
   list-style: none;
@@ -158,6 +187,9 @@ line-height: 1,24;
 text-align: left;	
 }
 .footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
 }
 
