@@ -106,9 +106,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.convenience-list {
+.advantages-list {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
   list-style: none;
 }
@@ -141,6 +142,9 @@ color: rgba(0, 0, 0, 0.3);
 .convenience-item {
   text-align: center;
 }
+.advantages-item{
+  text-align: center;
+}
 .gray-back {
 background-color: #eeeeee;	
 }
@@ -150,11 +154,54 @@ background-color: #eeeeee;
   font-weight: bold;
   color: #000000;
 }
-.convenience-item1 {
+.advantages-item h2{
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+.advantages-item1 {
   font-size: 14px;
   line-height: 1,5;
   color: #333333;
   text-align: center;
+}
+  .advantages-item {
+  width: 33.33%;
+  padding-top: 140px;
+  padding-right: 55px;
+  padding-bottom: 70px;
+  padding-left: 60px;
+}
+
+.advantages-item p {
+  margin-top: 24px;
+}
+
+.advantages .house {
+  position: relative;
+
+  background-image: url(../img/icon-1.svg);
+  background-repeat: no-repeat;
+  background-position: left 162px top 60px;
+  background-size: 75px 72px;
+}
+
+.advantages .souvenirs {
+  position: relative;
+
+  background-image: url(../img/icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: left 162px top 60px;
+  background-size: 75px 72px;
+}
+
+.advantages .food {
+  position: relative;
+
+  background-image: url(../img/icon-3.svg);
+  background-repeat: no-repeat;
+  background-position: left 162px top 60px;
+  background-size: 75px 72px;
 }
 .blue-back,
 .convenience-item2 {
