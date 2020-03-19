@@ -24,6 +24,7 @@
 </header>
 <main>
   <section class="background-photo2">
+    <h2 class="visually-hidden">Горы</h2>
   </section>
   <h1 class="visually-hidden">Поиск гостиницы по параметрам</h1>
 		<form method="get" action="https://echo.htmlacademy.ru" oninput="hotel-cost.value=hotel-cost.value">
@@ -62,15 +63,15 @@
             </ul>
           </fieldset>
           <fieldset>
-          <div class=""selection-options>Стоимость в сутки (Р):</div>
+          <div class="selection-options">Стоимость в сутки (Р):</div>
 <div>
 <label class="min-price">от <input type="number" name="min-price" value="0"></label>
 <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
 </div>
-         <fieldset>
-          	<legend class="selection-options">Стоимость в сутки(Р):</legend>
-          	<output name="hotel-cost"></output>
+    <div>      	
+      <output name="hotel-cost"></output>
           	<input type="range" id="hotel-cost" name="hotel-cost" min="0" max="3000" step="1000">
+          </div>
           </fieldset>
           <button type="submit" class="button-show">Показать</button>
 	</form>
