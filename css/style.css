@@ -152,6 +152,7 @@ color: rgba(0, 0, 0, 0.3);
 
 .convenience-item {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
 }
