@@ -134,14 +134,7 @@ color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
   color: #000000;
   text-align: center;
-}
 
-.img-wrap {
-  width: 800px;
-}
-
-.img-wrap img {
-  display: block;
 }
 .reasons {
   font-size: 14px;
@@ -152,7 +145,6 @@ color: rgba(0, 0, 0, 0.3);
 
 .convenience-item {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -174,6 +166,12 @@ width: 280px;
 .convenience-info-last p {
   width: 259px;
 }
+.img-wrap {
+  width: 800px;
+}
+
+.img-wrap img {
+  display: block;
 }
 .advantages-item{
   text-align: center;
