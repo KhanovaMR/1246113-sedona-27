@@ -33,7 +33,7 @@ body {
   background-image: url("img/background-photo.jpg"),url("intro-mask.svg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-color: #766357,url("intro-mask.svg");
+  background-color: #766357;
 }
 .promo-picture img {
   position: relative;
@@ -106,7 +106,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.advantages-list {
+.advantages {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -114,6 +114,9 @@ body {
   list-style: none;
 }
 .footer-social ul {
+  list-style: none;
+ }
+ .convenience-list {
   list-style: none;
  }
 .site-navigation a {
@@ -131,6 +134,13 @@ color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
   color: #000000;
   text-align: center;
+}
+.img-wrap {
+  width: 800px;
+}
+
+.img-wrap img {
+  display: block;
 }
 .reasons {
   font-size: 14px;
