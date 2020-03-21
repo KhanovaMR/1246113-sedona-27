@@ -135,6 +135,7 @@ color: rgba(0, 0, 0, 0.3);
   color: #000000;
   text-align: center;
 }
+
 .img-wrap {
   width: 800px;
 }
@@ -150,7 +151,28 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .convenience-item {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+}
+.convenience-info{
+  width: 400px;
+  padding-top: 46px;
+  padding-bottom: 57px;
+}
+.convenience-info p{
+width: 280px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.convenience-info p:last-child {
+  padding-top: 20px;
+}
+
+.convenience-info-last p {
+  width: 259px;
+}
 }
 .advantages-item{
   text-align: center;
