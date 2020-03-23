@@ -30,7 +30,7 @@ body {
 }
 
 .background-photo {
-  background-image: url("img/background-photo.jpg"),url("intro-mask.svg");
+  background-image: url(../img/polygon.png), url(../img/background-photo.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #766357;
@@ -101,46 +101,15 @@ body {
 .navigation-item:nth-child(3) {
   margin-left: 82px;
 }
-.convenience ul{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.advantages {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.footer-social ul {
-  list-style: none;
- }
+
  .convenience-list {
   list-style: none;
- }
-.site-navigation a {
-  color: inherit;
 }
-.site-navigation a:hover{
-color:#81b3d2;
-}
-.site-navigation a:active {
-color: rgba(0, 0, 0, 0.3);
-}
-.sedona-town {
-  font-size: 21px;
-  line-height: 1,23;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
 
-}
-.reasons {
-  font-size: 14px;
-  line-height: 1,85;
-  color: #333333;
-  text-align: center;	
+.convenience ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .convenience-item {
@@ -173,6 +142,41 @@ width: 280px;
 .img-wrap img {
   display: block;
 }
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.footer-social ul {
+  list-style: none;
+ }
+
+.site-navigation a {
+  color: inherit;
+}
+.site-navigation a:hover{
+color:#81b3d2;
+}
+.site-navigation a:active {
+color: rgba(0, 0, 0, 0.3);
+}
+.sedona-town {
+  font-size: 21px;
+  line-height: 1,23;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+
+}
+.reasons {
+  font-size: 14px;
+  line-height: 1,85;
+  color: #333333;
+  text-align: center;	
+}
+
 .advantages-item{
   text-align: center;
 }
