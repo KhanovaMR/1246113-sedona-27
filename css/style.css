@@ -111,6 +111,7 @@ body {
 .convenience ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .convenience-item {
